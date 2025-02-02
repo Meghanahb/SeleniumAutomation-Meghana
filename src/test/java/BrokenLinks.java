@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class AssignmentA
+public class BrokenLinks
 {
         @Test
         public void displayAllA()
@@ -28,8 +28,7 @@ public class AssignmentA
                 }
             }
 
-            finally
-            {
+            finally {
                 driver.close();
             }
 

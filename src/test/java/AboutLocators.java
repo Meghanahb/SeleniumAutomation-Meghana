@@ -97,7 +97,7 @@ public class AboutLocators
           for(WebElement eles:anchortags)
           {
               String linktxt=eles.getText();
-              System.out.println(eles +"----->" +linktxt);
+              System.out.println(linktxt);
           }
 
       }
